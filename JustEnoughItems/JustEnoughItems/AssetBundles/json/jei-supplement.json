@@ -1,0 +1,48 @@
+{
+  "Items": [
+    {
+      "ItemId": "Titanium",
+      "Source": [
+        {
+          "IfFabricator": false,
+          "Text": "通过打碎金属残骸获得",
+          "Patch": "sources/metal_salvage.png",
+          "TabIcon": "icons/info.png"
+        }
+      ],
+      "Usage": [
+        {
+          "IfFabricator": true,
+          "Fabricator": "Fabricator",
+          "FabricatorDisplayName": "工作台",
+          "Ingredient": ["Titanium"],
+          "Target": ["TitaniumIngot"]
+        },
+        {
+          "IfFabricator": false,
+          "Text": "钛可用于多种基础建材",
+          "Patch": "tips/titanium_usage.png",
+          "TabIcon": "icons/info.png"
+        }
+      ]
+    },
+    {
+      "ItemId": "Battery",
+      "Source": [
+        {
+          "IfFabricator": true,
+          "Fabricator": "Fabricator",
+          "FabricatorDisplayName": "工作台",
+          "Ingredient": ["AcidMushroom", "AcidMushroom", "CopperOre"]
+        }
+      ],
+      "Usage": [
+        {
+          "IfFabricator": false,
+          "Text": "电池可为多种设备供电。",
+          "Patch": "tips/battery_usage.png"
+        }
+      ]
+    }
+  ]
+}

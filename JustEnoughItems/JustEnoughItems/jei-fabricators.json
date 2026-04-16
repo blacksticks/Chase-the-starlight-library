@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "Fabricator",             
+    "DisplayName": "工作台",        
+    "Icon": "icons/fabricator/fabricator.png",      
+    "IncludeItems": [               
+      "Titanium",
+      "TitaniumIngot",
+      "FiberMesh",
+      "Silicone"
+    ]
+  },
+  {
+    "Id": "Fabricator1",
+    "DisplayName": "初级工作台",
+    "Icon": "icons/fabricator/fabricator.png",
+    "IncludeItems": [
+      "Tiingot"
+    ]
+  },
+  {
+    "Id": "MyModBenchTechType",
+    "DisplayName": "超级工作台",
+    "Icon": "TechType.MyModBenchTechType",
+    "IncludeItems": [
+      "TechType.MyModItemA",
+      "MyModItemB"
+    ]
+  }
+]

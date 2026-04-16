@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\JustEnoughItems\JustEnoughItems\obj\Release\net48\JustEnoughItems.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\JustEnoughItems\JustEnoughItems\obj\Release\net48\JustEnoughItems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\JustEnoughItems\JustEnoughItems\obj\Release\net48\JustEnoughItems.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\JustEnoughItems\JustEnoughItems\obj\Release\net48\JustEnoughItems.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\JustEnoughItems\JustEnoughItems\obj\Release\net48\JustEnoughItems.csproj.CoreCompileInputs.cache
