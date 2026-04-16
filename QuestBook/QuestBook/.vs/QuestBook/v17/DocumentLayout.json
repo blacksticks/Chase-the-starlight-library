@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\ui\\createtaskdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:ui\\createtaskdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\config\\userdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:config\\userdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\ui\\createchapterdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:ui\\createchapterdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\ui\\iconpickerdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:ui\\iconpickerdialogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\ui\\contextmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:ui\\contextmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\patches\\inputfocuspatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:patches\\inputfocuspatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\config\\questconfigloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:config\\questconfigloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\consolecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:consolecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\developermodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:developermodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|c:\\users\\administrator\\desktop\\questbook\\questbook\\questbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81C041A0-1D98-4BCD-B7F9-77A35FEDCF94}|QuestBook.csproj|solutionrelative:questbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateTaskDialogController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\CreateTaskDialogController.cs",
+              "RelativeDocumentMoniker": "UI\\CreateTaskDialogController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\CreateTaskDialogController.cs",
+              "RelativeToolTip": "UI\\CreateTaskDialogController.cs",
+              "ViewState": "AgIAAN4BAAAAAAAAAAAswAICAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:38:37.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Config\\UserDataRepository.cs",
+              "RelativeDocumentMoniker": "Config\\UserDataRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Config\\UserDataRepository.cs",
+              "RelativeToolTip": "Config\\UserDataRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T07:06:08.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IconPickerDialogController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\IconPickerDialogController.cs",
+              "RelativeDocumentMoniker": "UI\\IconPickerDialogController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\IconPickerDialogController.cs",
+              "RelativeToolTip": "UI\\IconPickerDialogController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswDIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:35:55.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\ContextMenuController.cs",
+              "RelativeDocumentMoniker": "UI\\ContextMenuController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\ContextMenuController.cs",
+              "RelativeToolTip": "UI\\ContextMenuController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:11:48.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeveloperModeManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\DeveloperModeManager.cs",
+              "RelativeDocumentMoniker": "DeveloperModeManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\DeveloperModeManager.cs",
+              "RelativeToolTip": "DeveloperModeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T01:16:29.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsoleCommands.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\ConsoleCommands.cs",
+              "RelativeDocumentMoniker": "ConsoleCommands.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\ConsoleCommands.cs",
+              "RelativeToolTip": "ConsoleCommands.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:42:35.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwBUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:44:45.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UIManager.cs",
+              "RelativeDocumentMoniker": "UIManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UIManager.cs",
+              "RelativeToolTip": "UIManager.cs",
+              "ViewState": "AgIAAJ4GAAAAAAAAAAAswIwGAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:42:43.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateChapterDialogController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\CreateChapterDialogController.cs",
+              "RelativeDocumentMoniker": "UI\\CreateChapterDialogController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\UI\\CreateChapterDialogController.cs",
+              "RelativeToolTip": "UI\\CreateChapterDialogController.cs",
+              "ViewState": "AgIAAIsBAAAAAAAAAAAswJ8BAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:13:23.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuestConfigLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Config\\QuestConfigLoader.cs",
+              "RelativeDocumentMoniker": "Config\\QuestConfigLoader.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Config\\QuestConfigLoader.cs",
+              "RelativeToolTip": "Config\\QuestConfigLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:39:10.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputFocusPatches.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Patches\\InputFocusPatches.cs",
+              "RelativeDocumentMoniker": "Patches\\InputFocusPatches.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\Patches\\InputFocusPatches.cs",
+              "RelativeToolTip": "Patches\\InputFocusPatches.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:03:54.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuestBook.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\QuestBook.csproj",
+              "RelativeDocumentMoniker": "QuestBook.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\QuestBook\\QuestBook\\QuestBook.csproj",
+              "RelativeToolTip": "QuestBook.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-24T09:00:40.649Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

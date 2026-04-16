@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\obj\Debug\net472\QuestBook.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\obj\Debug\net472\QuestBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\obj\Debug\net472\QuestBook.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\obj\Debug\net472\QuestBook.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\obj\Debug\net472\QuestBook.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\bin\Debug\net472\QuestBook.dll
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\bin\Debug\net472\QuestBook.pdb
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\obj\Debug\net472\QuestBook.dll
+C:\Users\Administrator\Desktop\QuestBook\QuestBook\obj\Debug\net472\QuestBook.pdb

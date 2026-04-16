@@ -1,0 +1,12 @@
+{
+  "Id": "CannotCatchFishAlive",
+  "DisplayName": "can not catch fish alive",
+  "Author": "TichunYuanyan",
+  "Version": "1.0.0",
+  "Game": "Subnautica",
+  "AssemblyName": "CannotCatchFishAlive.dll",
+  "EntryMethod": "CannotCatchFishAlive.ModEntry.Patch",
+  "LoadBefore": [
+    "CustomCraft2SML"
+  ]
+}

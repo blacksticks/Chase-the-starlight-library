@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestBookManual version="1.0">
+  <Title>QuestBook 使用说明</Title>
+  <Overview>
+    QuestBook 是一个为 Subnautica 提供“任务书”体验的 UI 模组，包含章节列表视图（Chapters）与任务图视图（Graph），支持右键上下文菜单与可视化编辑。
+  </Overview>
+
+  <UIHierarchy>
+    <Root name="QuestBookCanvas" purpose="整个 QuestBook 的根 Canvas"/>
+    <Child name="ChaptersPanel" purpose="章节列表/网格视图容器"/>
+    <Child name="GraphPanel" purpose="任务节点/连线的可视化容器"/>
+
+    <Prefab name="ChapterItemPrefab" purpose="单个章节项">
+      <Child name="Label" purpose="章节标题文本"/>
+    </Prefab>
+
+    <Prefab name="NodeItemPrefab" purpose="任务节点卡片">
+      <Child name="Icon" purpose="节点图标"/>
+      <Child name="Title" purpose="节点标题文本（可按需启用换行）"/>
+    </Prefab>
+
+    <Prefab name="EdgeLinePrefab" purpose="任务节点之间的连线（无子层级）"/>
+
+    <Prefab name="ContextMenuPrefab" purpose="右键菜单浮层">
+      <Child name="Items" purpose="菜单按钮父容器（竖直排列、控制间距/内边距）"/>
+    </Prefab>
+
+    <Prefab name="MenuButtonItemPrefab" purpose="右键菜单中的单条按钮项">
+      <Child name="Label" purpose="按钮文本"/>
+    </Prefab>
+
+    <Prefab name="ChapterPagePrefab" purpose="单个章节详情页容器">
+      <Child name="Background" purpose="整页背景（颜色/透明度/纹理）"/>
+      <Child name="ContentRoot" purpose="章节内容根">
+        <Child name="EdgesContainer" purpose="连线父容器（放在底层）"/>
+        <Child name="NodesContainer" purpose="节点父容器（渲染在连线上方）"/>
+      </Child>
+    </Prefab>
+  </UIHierarchy>
+
+  <ContextMenu>
+    <Usage>
+      在 QuestBook UI 任意位置右键，即可弹出上下文菜单。菜单默认以“左上角”对齐当前鼠标位置；若右侧越界，将自动向左偏移确保完整显示。
+    </Usage>
+    <UnityTuning>
+      <Item name="选项间距" path="ContextMenuPrefab/Items" component="VerticalLayoutGroup" field="Spacing">
+        调整 Spacing 数值可改变相邻按钮的间距；Padding 可调整文本与黑底边缘的留白。
+      </Item>
+      <Item name="黑色背景" path="ContextMenuPrefab" component="Image">
+        将根节点 Image 颜色设置为黑色半透（如 #000000D9），Raycast Target 关闭；黑底尺寸由根上的布局与 Fitter 自动适配。
+      </Item>
+      <Item name="尺寸自适应" path="ContextMenuPrefab">
+        建议在根节点使用一个 LayoutGroup（Vertical 或 Horizontal 任一其一）+ ContentSizeFitter(H/V=Preferred Size)；
+        在 Items 仅保留 VerticalLayoutGroup，不要再挂 ContentSizeFitter，避免父子循环。
+      </Item>
+      <Item name="按钮行高" path="MenuButtonItemPrefab" component="LayoutElement">
+        按需设置 Min/Preferred Height（如 36~44）与 Preferred Width（如 240~300）；若需多行文本，请在 Label 启用 Wrap，并避免将高度锁死过小。
+      </Item>
+    </UnityTuning>
+  </ContextMenu>
+
+  <ChaptersPanelGuide>
+    <Layout>
+      可使用 VerticalLayoutGroup（竖列）或 GridLayoutGroup（网格）。Spacing 控制项间距，Padding 控制四周留白；
+      若需滚动，添加 ScrollRect + Mask。
+    </Layout>
+    <ItemPrefab>
+      在 ChapterItemPrefab 上用 LayoutElement 设定最小/首选尺寸；Label 可配置字体、大小、对齐与换行策略。
+    </ItemPrefab>
+  </ChaptersPanelGuide>
+
+  <GraphPanelGuide>
+    <Nodes>
+      NodeItemPrefab 的 Icon/Title 可通过 RectTransform 或 LayoutElement 控制大小；如标题较长，建议 Label 开启 Wrap 并允许容器随内容增高。
+    </Nodes>
+    <Edges>
+      EdgeLinePrefab 使用 LineRenderer 或 Image 细线，宽度/颜色在组件上调整；确保 EdgesContainer 在底层、NodesContainer 在上层。
+    </Edges>
+  </GraphPanelGuide>
+
+  <Troubleshooting>
+    <Issue id="menu-mirror" title="右键菜单在下半屏镜像到上半屏">
+      <Cause>定位参考系不一致或 Items/父级布局循环导致的尺寸/坐标异常。</Cause>
+      <Fix>确保 Items 仅有 VerticalLayoutGroup；根节点负责尺寸自适应；当前实现已固定左上角对齐并仅在右侧越界时水平回收。</Fix>
+    </Issue>
+    <Issue id="bg-not-cover" title="黑底未完全覆盖文本">
+      <Cause>背景未挂在根、或父子同时使用 LayoutGroup+Fitter 导致计算循环。</Cause>
+      <Fix>将黑底 Image 挂在 ContextMenu 根；根使用 LayoutGroup+ContentSizeFitter，Items 仅 VerticalLayoutGroup；必要时增大按钮 Preferred Width 与行高。</Fix>
+    </Issue>
+    <Issue id="text-clipped" title="文本过长被裁切/不完整">
+      <Fix>方案 A：增大 MenuButtonItemPrefab 的 Preferred Width（单行显示）；方案 B：Label 开启 Wrap，并允许按钮/父容器随内容增高。</Fix>
+    </Issue>
+  </Troubleshooting>
+
+  <Tips>
+    <Item>避免在父与子同时挂 LayoutGroup + ContentSizeFitter，易产生布局循环与抖动。</Item>
+    <Item>需要稳定行高与最小尺寸时，优先对对应的 Prefab 增加 LayoutElement 约束。</Item>
+    <Item>若菜单显示层级过低，请提升其 Canvas 的 Sorting Order（如 4096）。</Item>
+  </Tips>
+
+  <Versioning>
+    <Change date="2026-03-19">新增：层级职责说明、右键菜单 Unity 调参与常见问题排查。</Change>
+  </Versioning>
+</QuestBookManual>

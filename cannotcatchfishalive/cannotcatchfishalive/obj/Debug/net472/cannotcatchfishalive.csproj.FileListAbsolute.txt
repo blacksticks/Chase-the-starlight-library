@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\bin\Debug\net472\CannotCatchFishAlive.dll
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\bin\Debug\net472\CannotCatchFishAlive.pdb
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\obj\Debug\net472\cannotcatchfishalive.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\obj\Debug\net472\cannotcatchfishalive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\obj\Debug\net472\cannotcatchfishalive.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\obj\Debug\net472\cannotcatchfishalive.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\obj\Debug\net472\cannotcatchfishalive.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\obj\Debug\net472\CannotCatchFishAlive.dll
+C:\Users\Administrator\Desktop\cannotcatchfishalive\cannotcatchfishalive\obj\Debug\net472\CannotCatchFishAlive.pdb

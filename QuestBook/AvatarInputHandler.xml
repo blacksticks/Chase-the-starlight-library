@@ -1,0 +1,56 @@
+#region 程序集 Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// F:\GN-RTS V9.4.2\game\Subnautica_Data\Managed\Assembly-CSharp.dll
+// Decompiled with ICSharpCode.Decompiler 8.2.0.7535
+#endregion
+
+using UnityEngine;
+using UWE;
+
+public class AvatarInputHandler : MonoBehaviour
+{
+    public static AvatarInputHandler main;
+
+    public bool clicked;
+
+    private void Awake()
+    {
+        main = this;
+    }
+
+    private void OnEnable()
+    {
+        if (!Application.isEditor || clicked)
+        {
+            UWE.Utils.lockCursor = true;
+        }
+    }
+
+    private void OnDisable()
+    {
+    }
+
+    private void Update()
+    {
+        FPSInputModule.current.EscapeMenu();
+        if (Input.GetMouseButtonDown(0) && GUIUtility.hotControl == 0)
+        {
+            clicked = true;
+            UWE.Utils.lockCursor = true;
+        }
+    }
+
+    public bool IsEnabled()
+    {
+        if (base.gameObject.activeInHierarchy)
+        {
+            if (!UWE.Utils.lockCursor)
+            {
+                return PlatformUtils.isConsolePlatform;
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+}

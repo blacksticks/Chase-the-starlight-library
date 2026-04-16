@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <!-- 请按需修改为你的本地路径 -->
+    <SubnauticaDir>F:\GN-RTS V9.4.2\game</SubnauticaDir>
+    <QModsDir>F:\GN-RTS V9.4.2\game\QMods</QModsDir>
+  </PropertyGroup>
+</Project>
